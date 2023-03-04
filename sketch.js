@@ -77,7 +77,7 @@ function draw() {
 
   Engine.update(engine);
 
-  if (score>=10){ 
+  if (score>=200){ 
 win();
   }
   if(!backSound.isPlaying()){
